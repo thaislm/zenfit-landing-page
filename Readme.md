@@ -5,8 +5,8 @@
 Este é um projeto de landing page simples criado para praticar HTML e CSS. O objetivo é promover um serviço de acompanhamento físico e nutricional, oferecendo aos visitantes uma visão clara dos benefícios e informações para obter o plano.
 
 ## Atividades
-- [x] desktop first..: Foca inicialmente na criação de layouts e estilos para dispositivos com telas maiores, como monitores de computador e notebooks.
-- [ ] mobile first..: Foca em dispositivos de tela menor como smartphone e tablets.
+- [x] desktop first: Foca inicialmente na criação de layouts e estilos para dispositivos com telas maiores, como monitores de computador e notebooks.
+- [ ] mobile first: Foca em dispositivos de tela menor como smartphone e tablets.
 
 ## Funcionalidades
 
