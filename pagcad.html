@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylespag.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <!--Parte superior do site aonde coloquei logo do site e uma frase-->
+
+    <div class="container">
+        <div class="header">
+            <h3>Transforme Seu Corpo, Acalme Sua Mente!</h3>
+            <img src="img/logozenfit2.png" alt="zenfit">
+        </div>
+    <form action="register.php" method="get">
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <!--Inicio do formulario de cadastro-->
+            <div class="form-body">
+                <h1 class="form-title">Faça seu cadastro</h1>
+        <div class="box-input">
+            <label for="title">Nome Completo: <span class="required-field">*</span> </label>
+            <input type="text" name="title" id="title" class="block">
+                </div>
+                <div class="box-input">
+                    <label for="purchase_date">Data de nascimento: <span class="required-field">*</span></label>
+                    <input type="date" name="purchase_date" id="purchase_date" class="block" required>
+                </div>
+                <div class="box-input">
+                    <label for="email">Digite seu email: <span class="required-field">*</span></label>
+                    <input type="email" name="email" id="email" class="block" placeholder="Ex: nome24@gmail.com" minlength="1" maxlength="50" required>
+                    </div>
+                    <div class="box-input">
+                    <label for="email">Confirme seu email: <span class="required-field">*</span></label>
+                    <input type="email" name="email" id="email" class="block" placeholder="Ex: nome24@gmail.com" minlength="1"maxlength="50" required>
+                    </div>
+                    <div class="box-input">
+                        <label for="value">Telefone: <span class="required-field">*</span> </label>
+                        <input type="value" name="telephone" id="telephone" class="block" required>
+                        </div>
+                        <div class="box-input">
+                            <label for="password">Digite sua senha:</label>
+                            <input type="password" name="password" class="block">
+                        </div>
+                        <div class="box-input">
+                            <p>Sexo:  <span class="required-field">*</span> 
+                            </p>
+                            <input type="radio" id="sex" name="sexuality">
+                            <label for="feminino">Feminino</label>
+                            <input type="radio" id="sex" name="sexuality">
+                            <label for="masculino">Masculino</label>
+                        </div>
+                        <!--Adicionando botao de cadastro-->
+                        <input type="submit" value="Cadastar" class="btn-submit">
+
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </form>
+                    </div>
+                    
+                </div>
+           
+    </div>
+        </div>
+    
+</body>
+</html>
