@@ -279,7 +279,7 @@ footer{
 
 /*laptops 1100px*/
 
-@media (max-width: 1100px) {
+@media (max-width: 1025px) {
     .plans-container {
         width: 95%;
     }
@@ -290,7 +290,7 @@ footer{
 }
 
 /*tablet*/
-@media(max-width:900px) {
+@media(max-width:769px) {
     .main-banner p {
         padding: 0 6rem;
     }
@@ -300,9 +300,9 @@ footer{
     }
 }
 
-/*celular 576px*/
+/*celular 320px a 480px*/
 
-@media(max-width:576px) {
+@media(max-width:480px) {
 
     html,
     body {
